@@ -74,8 +74,8 @@ void for_pchar(stack_t **head, unsigned int counter);
 void for_pstr(stack_t **head, unsigned int counter);
 void for_rotl(stack_t **head, unsigned int counter);
 void for_rotr(stack_t **head, __attribute__((unused)) unsigned int counter);
-void addnode(stack_t **head, int n);
-void addqueue(stack_t **head, int n);
+void add_node(stack_t **head, int n);
+void queue_add(stack_t **head, int n);
 void for_queue(stack_t **head, unsigned int counter);
 void for_stack(stack_t **head, unsigned int counter);
 #endif
